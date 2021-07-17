@@ -24,6 +24,8 @@ class PostServiceTest {
 //                .modDate(LocalDateTime.now())
                 .build();
         postService.register(postRequest);
+//         커밋 테스트
+//         커밋 테스트2
     }
 
 }
