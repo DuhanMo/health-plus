@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 public interface PostService {
-    Post read(Long id);
+//    Post read(Long id);
 
     void register(PostRequest postRequest);
 
