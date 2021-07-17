@@ -15,10 +15,10 @@ public class PostServiceImpl implements PostService{
 
     private final PostRepository postRepository;
 
-    @Override
-    public Post read(Long id) {
-        return null;
-    }
+//    @Override
+//    public Post read(Long id) {
+//        return postRepository.findById(id);
+//    }
 
     @Override
     public void register(PostRequest postRequest) {
